@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* text-transform: uppercase; всі летери великі */
+
+nav {
+  margin-bottom: 30px;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #3c0606;
+}
+
+/* display: inline-block; - у одинрядок  */
+img {
+  /* width: 200px;
+  border: 1px solid #0000;
+  border-radius: 100px; */
+  margin-bottom: 33px;
+}
+/* /* width: 200; - ширина  
+border-radius: 100px;- округлення картинки*
+  margin-bottom: 33px; - нижній  відступ/
+  margin-top: 26px; - верхній відлступ  */
+
+h1 {
+  color: #373308;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+h2 {
+  color: #f9e71a;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 18px;
+  margin-bottom: 28px;
+}
+
+/* font-size: 36px; -розмір шрифта  */
+/* font-weight: 900; - вага  
+  letter-spacing: 18px; -  ширина між літерами*/
+
+div {
+  margin-top: 15px;
+}
+
+input {
+  padding: 11px 17px;
+}
+
+textarea {
+  padding: 11px 17px;
+  height: 138px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  border: none;
+}
+
+button {
+  border-radius: 11px;
+  background-color: rgb(58, 65, 65);
+  width: 165px;
+  height: 57px;
+  margin-bottom: 33px;
+  font-size: 18px;
+  color: rgb(20, 9, 63);
+  text-transform: uppercase;
+}
+
+/* height - висота  */
+.header {
+  margin-top: 26px;
+}
+
+.content {
+  background-color: #120114;
+  padding-top: 40px;
+}
+
+/* padding-top: 40px; - верхній відступ у ссередені болоуку */
+
+.forms {
+  width: 400px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #ddd;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+.footer {
+  color: brown;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 33px 0;
+}
+
+/* header {
+  height: 50px;
+  background-color: aquamarine;
+}
+
+section {
+  height: 200px;
+  background-color: aqua;
+}
+
+footer {
+  height: 50px;
+  background-color: blue;
+} */
+
+.colums {
+  background-color: #120114;
+  border-bottom: 1px solid #808080;
+  padding-top: 30px;
+}
+
+.colums__inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* justify-content: space-around; - розподілений простфр навколо кожного елемента  */
+.colums__first {
+  max-width: 300px;
+}
+.colums__second {
+  max-width: 600px;
+}
+
+.colums__first h3 {
+  color: #e7e7e0;
+  font-size: 15px;
+}
+
+.colums__first p {
+  text-transform: none;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: justify;
+}
+/* text-align: justify; - розтягуваня тексту  */
